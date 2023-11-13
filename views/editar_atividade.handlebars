@@ -1,0 +1,15 @@
+<form action="/editar_atividade" method="post">
+<label for="num_atividade">digite o num_atividade da atividade que deseja modificar</label>
+<input type="text" name="num_atividade">
+<br><br>
+<label for="nome_atividade">digite o novo nome_atividade</label>
+<input type="text" name="nome_atividade">
+<br><br>
+<label for="setorId">digite o novo setorId</label>
+<input type="text" name="setorId">
+<br><br>
+<button type="submit">Editar</button>
+</form>
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}

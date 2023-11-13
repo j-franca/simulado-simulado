@@ -1,0 +1,19 @@
+<h1>Lista de setores</h1>
+<table>
+    <thead>
+        <th>id</th>
+        <th>num_setor</th>
+        <th>nome_setor</th>
+        <th>gerenteId</th>
+    </thead>
+    <tbody>
+        {{#each valores}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.num_setor}}</td>
+            <td>{{this.nome_setor}}</td>
+            <td>{{this.gerenteId}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

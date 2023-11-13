@@ -1,0 +1,12 @@
+<form action="/excluir_setor" method="post">
+<label for="num_setor">digite o num_setor do setor que deseja excluir</label>
+<input type="text" name="num_setor">
+<br><br>
+<button type="submit">Excluir</button>
+</form>
+
+<a href="/listar_setor">Confira clicando aqui!</a>
+
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}

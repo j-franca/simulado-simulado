@@ -1,0 +1,12 @@
+<form action="/sistema" method="post">
+<label for="email">email</label>
+<input type="text" name="email">
+<br><br>
+<label for="senha">senha</label>
+<input type="text" name="senha">
+<br><br>
+<button type="submit">Entrar</button>
+</form>
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}

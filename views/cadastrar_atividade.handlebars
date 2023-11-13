@@ -1,0 +1,15 @@
+<form action="/cadastrar_atividade" method="post">
+<label for="num_atividade">num_atividade</label>
+<input type="text" name="num_atividade">
+<br><br>
+<label for="nome_atividade">nome_atividade</label>
+<input type="text" name="nome_atividade">
+<br><br>
+<label for="setorId">setorId</label>
+<input type="text" name="setorId">
+<br><br>
+<button type="submit">Cadastrar</button>
+</form>
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}

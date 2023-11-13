@@ -1,0 +1,19 @@
+<h1>Lista de atividades</h1>
+<table>
+    <thead>
+        <th>id</th>
+        <th>num_atividade</th>
+        <th>nome_atividade</th>
+        <th>setorId</th>
+    </thead>
+    <tbody>
+        {{#each valores}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.num_atividade}}</td>
+            <td>{{this.nome_atividade}}</td>
+            <td>{{this.setorId}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

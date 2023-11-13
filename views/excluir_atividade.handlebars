@@ -1,0 +1,12 @@
+<form action="/excluir_atividade" method="post">
+<label for="num_atividade">digite o num_atividade da atividade que deseja excluir</label>
+<input type="text" name="num_atividade">
+<br><br>
+<button type="submit">Excluir</button>
+</form>
+
+<a href="/listar_atividade">Confira clicando aqui!</a>
+
+{{#if msg}}
+<p>{{msg}}</p>
+{{/if}}
